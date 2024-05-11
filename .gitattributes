@@ -1,2 +1,72 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+#Password Generator Game
+# Requirments: At least 12 characters long but 14 or more is better.
+#A combination of uppercase letters, lowercase letters, numbers, and symbols.
+#Not a word that can be found in a dictionary or the name of a person, character, product, or organization.
+#Significantly different from your previous passwords.
+#-----------------------------------------------------------------------------------------------------------------
+#Colors
+GREEN   = '\033[32m'
+RESET   = '\033[39m'
+    
+import random
+random_letters = [
+"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z", ]
+random_letters = random.choice(random_letters)
+print(GREEN + random_letters, end='')
+#---------------------------------------------------
+random_numbers = [
+"0","1","2","3","4","5","6","7","8","9",
+]
+random_numbers = random.choice(random_numbers)
+print(random_numbers, end='')
+#-------------------------------------------------------------------------
+random_characters = [ "#","$","%","^","&","*","!","@","~","?" ]
+random_characters = random.choice(random_characters)
+print(random_characters, end= '')
+#------------------------------------------------------------------------------------------------------
+random_letters = [
+'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ]
+random_letters = random.choice(random_letters)
+print(random_letters, end='')
+#------------------------------------------------------------------------------------------------------------
+random_numbers = [
+"0","1","2","3","4","5","6","7","8","9",]
+random_numbers = random.choice(random_numbers)
+print(random_numbers, end='')
+#---------------------------------------------------------------------------------------------------------------
+random_characters = [ "#","$","%","^","&","*","!","@","~","?" ]
+random_characters = random.choice(random_characters)
+print(random_characters, end='')
+#-----------------------------------------------------------------------------------------------------------------------
+random_letters = [
+"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z", ]
+random_letters = random.choice(random_letters)
+print(random_letters, end='')
+#---------------------------------------------------
+random_numbers = [
+"0","1","2","3","4","5","6","7","8","9",
+]
+random_numbers = random.choice(random_numbers)
+print(random_numbers, end='')
+#-------------------------------------------------------------------------
+random_characters = [ "#","$","%","^","&","*","!","@","~","?" ]
+random_characters = random.choice(random_characters)
+print(random_characters, end= '')
+#------------------------------------------------------------------------------------------------------
+random_letters = [
+'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ]
+random_letters = random.choice(random_letters)
+print(random_letters, end='')
+#------------------------------------------------------------------------------------------------------------
+random_numbers = [
+"0","1","2","3","4","5","6","7","8","9",]
+random_numbers = random.choice(random_numbers)
+print(random_numbers, end='')
+#---------------------------------------------------------------------------------------------------------------
+random_characters = [ "#","$","%","^","&","*","!","@","~","?" ]
+random_characters = random.choice(random_characters)
+print(random_characters, end='')
+#--------------------------------------------------------------------------------------------------------------------------------
+print(RESET)
